@@ -1,12 +1,5 @@
-- 前言
-    - [简介](zh-cn/README.md)
-    
-- C++
-    - [基础](zh-cn/C++/base.md)
-    - [函数](zh-cn/C++/func.md)
-    - [对象](zh-cn/C++/object.md)
+* 开发教程  
+  * [UI编辑 - 动画脚本](/docs/UI编辑_动画脚本.md)
+  * [脚本API接口](https://developers.mini1.cn/wiki/API.html)
 
-- Python
-    - [基础](zh-cn/Python/base.md)
-    - [函数](zh-cn/Python/func.md)
-    - [对象](zh-cn/Python/object.md)
+* [常见问题](README.md)

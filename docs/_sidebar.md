@@ -6,9 +6,10 @@
 * 开发教程
 
   * [游戏技巧](/docs/development/contents.md#游戏技巧)
-  * [UI编辑器](/docs/development/contents.md#UI编辑器)
   * [脚本API](/docs/development/contents.md#脚本API)
-  
+  * [UI编辑器](/docs/development/contents.md#UI编辑器)
+
+
 * 游戏技巧
 
   * [游戏跨服](/docs/development/skills/游戏跨服.md)

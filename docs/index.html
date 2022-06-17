@@ -14,7 +14,7 @@
   <link rel="stylesheet" type="text/css" href="style/myStyle.css"/>
 
   <!-- alert -->
-  <link rel="stylesheet" href="//cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.css" type='text/css' media='all' />
+  <link rel="stylesheet" href="./js/sweetalert.min.css" type='text/css' media='all' />
 
 </head>
 
@@ -31,7 +31,7 @@
       coverpage: true,  //开启封面
       loadSidebar: true,//开启侧边栏
       auto2top: true,   //切换页面自动回到顶部
-      subMaxLevel: 2,   //目录最大级数
+      subMaxLevel: 3,   //目录最大级数
       maxLevel: 4,      //可配置最大支持渲染的标题层级
       homepage: 'README.md', //设置中文的README.md作为首页
       
@@ -53,7 +53,6 @@
       footer: {
         copy: 'Copyright &copy; 2022 </span>',
         auth: ' <strong>Tatsuki丶梦辰</strong>',
-        pre: '<hr/>',
         style: 'text-align: center;',
       },
 
@@ -70,35 +69,28 @@
     }
   </script>
 
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="./js/docsify.min.js"></script>
 
   <!-- docsify表情包 -->
   <!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>-->
   
   <!-- 复制代码到剪切板 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="./js/docsify-copy-code.js"></script>
 
   <!-- 搜索功能 -->
-  <script src="//cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
+  <script src="./js/search.min.js"></script>
 
   <!-- C++、Java、python、bash等等语法高亮 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/components/prism-lua.js"></script>
+  <script src="./js/prism-bash.min.js"></script>
+  <script src="./js/prism-lua.js"></script>
   
   <!-- CDN files for docsify-katex -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <script src="./js/docsify-katex.js"></script>
   
   <!-- 文档页脚增强 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-footer-enh/dist/docsify-footer.min.js"></script>
   
-  <!-- 复制提醒 -->
-  <script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
-  <script>
-    document.body.oncopy = function () { 
-      swal("复制成功", 
-        "若要转载或引用请务必保留原文链接，并申明来源。如果你觉得本仓库不错，那就来 Github 给个 star 吧 😊", 
-        "success"); };
-  </script>
+
 
   <!-- PWA 离线化 -->
   <script>
@@ -106,11 +98,7 @@
       navigator.serviceWorker.register('sw.js')
     }
   </script>
-  
-  <!-- 访问量统计 -->
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            
-
+ 
   <!-- 置顶插件 -->
   <script src="style/jquery-1.11.3.min.js"></script>
   <script src="style/jquery.toTop.min.js"></script>
@@ -119,7 +107,7 @@
   </script>
 
   <!-- Markdown 引用样式美化 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
+  <script src="./js/docsify-plugin-flexible-alerts.min.js"></script>
 
   <!-- 图片缩放 -->
   <script src="./js/zoom-image.js"></script>

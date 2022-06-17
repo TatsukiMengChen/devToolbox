@@ -1,9 +1,9 @@
 .to-top {
-    display: none;
-    padding: 5px 14px 8px 14px;
-    margin-right: 10px;
-    color: #fff;
-    border-radius: 10px;
-    background-color: rgb(66, 185, 131);
-    font-size: 18px;
-}
+  display: none;
+  padding: 5px 14px 8px 14px;
+  margin-right: 10px;
+  color: #fff;
+  border-radius: 10px;
+  background-color: rgb(66, 185, 131);
+  font-size: 18px;
+};

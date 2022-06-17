@@ -1,6 +1,7 @@
 # 开发教程 {docsify-ignore-all}
  * [游戏技巧](#游戏技巧)
  * [脚本API](#脚本API)
+ * [综合案例](#综合案例)
  * [UI编辑器](#UI编辑器)
  
 
@@ -10,6 +11,11 @@
 
 
 ## 脚本API
+
+
+
+## 综合案例
+* [中国象棋](/docs/development/case/ChineseChess/README.md)
 
 
 

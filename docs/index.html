@@ -33,6 +33,13 @@
       maxLevel: 4, //可配置最大支持渲染的标题层级
       homepage: 'README.md', //设置中文的README.md作为首页
 
+      pagination: {
+        previousText: '上一章节',
+        nextText: '下一章节',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+
       //添加搜索功能，中文和英文文档同时搜索
       search: {
         paths: 'auto',
@@ -48,11 +55,7 @@
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
       }, //增加搜索框
 
-      footer: {
-        copy: 'Copyright &copy; 2022 </span>',
-        auth: ' <strong>Tatsuki丶梦辰</strong>',
-        style: 'text-align: center;',
-      },
+
 
       copyCode: {
         buttonText: '复制',
@@ -68,6 +71,8 @@
   <!-- docsify表情包 -->
   <!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>-->
 
+  <!-- 分页导航 -->
+  <script src="./js/docsify-pagination.min.js"></script>
   <!-- 复制代码到剪切板 -->
   <script src="./js/docsify-copy-code.js"></script>
 
@@ -80,10 +85,6 @@
 
   <!-- CDN files for docsify-katex -->
   <script src="./js/docsify-katex.js"></script>
-
-  <!-- 文档页脚增强 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-footer-enh/dist/docsify-footer.min.js"></script>
-
 
 
   <!-- PWA 离线化 -->
@@ -105,7 +106,6 @@
 
   <!-- 图片缩放 -->
   <script src="./js/zoom-image.js"></script>
-
 </body>
 
 </html>

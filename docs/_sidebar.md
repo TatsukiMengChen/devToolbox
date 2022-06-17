@@ -7,19 +7,28 @@
 
   * [游戏技巧](/docs/development/contents.md#游戏技巧)
   * [脚本API](/docs/development/contents.md#脚本API)
+  * [综合案例](/docs/development/contents.md#综合案例)
   * [UI编辑器](/docs/development/contents.md#UI编辑器)
-
 
 * 游戏技巧
 
-  * [游戏跨服](/docs/development/skills/游戏跨服.md)
+  * [游戏跨服](/docs/development/skills/游戏跨服.md)  
+
+
+
+* 脚本API
+
+
+* 综合案例
+
+  * [中国象棋](/docs/development/case/ChineseChess/README.md)
 
 
 * UI编辑器
 
   * [动画脚本](/docs/development/UI/动画脚本.md) 
 
-* 脚本API
+
 
 
 * [脚本API接口](https://developers.mini1.cn/wiki/API.html)

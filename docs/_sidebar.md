@@ -34,3 +34,11 @@
 * [脚本API接口](https://developers.mini1.cn/wiki/API.html)
 
 * [常见问题](/docs/questions.md)
+
+
+* 学习笔记
+
+  * 数学
+
+    * [法向量](/docs/notes/math/20220703.md)
+    * [空间向量求线线角、线面角、面面角](/docs/notes/math/20220704.md)

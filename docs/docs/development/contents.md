@@ -10,8 +10,8 @@
 
 
 
-## 脚本API
-
+## 脚本
+* [实用脚本](/docs/development/script/UsefulScript.md)
 
 
 ## 综合案例

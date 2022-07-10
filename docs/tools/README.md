@@ -4,5 +4,5 @@
 （相当于非安卓端的迷你开发者工具箱网页端）
 
 
-## [脚本编辑器](/tools/script_editor/index.html)
+## [脚本编辑器](https://tatsukimengchen.github.io/devToolbox/tools/ScriptEditor)
 

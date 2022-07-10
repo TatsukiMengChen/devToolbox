@@ -23,7 +23,7 @@
 
 * 综合案例
 
-  * [中国象棋](/docs/development/case/ChineseChess/README.md)
+  * [中国象棋](/docs/development/case/ChineseChess.md)
 
 
 * UI编辑器

@@ -62,7 +62,7 @@
           let t =
               e.config.footer && e.config.footer.copy
                 ? e.config.footer.copy
-                : "<span>&copy; 2019.</span>",
+                : "<span>&copy; 2022.</span>",
             n =
               e.config.footer && e.config.footer.auth
                 ? e.config.footer.auth

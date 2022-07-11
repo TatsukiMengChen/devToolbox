@@ -64,19 +64,12 @@
         ossChapterText: true,
       },
 
-      customPageFooter: {
-        debug: false,                   // for debugging
-
-        showPoweredBy: false,            // should show powered by docsify at right
-        copyrightYear: '2021 - 2022',              // show copyright year, default current year.
-        showCopyright: true,            // set to false to hide default copyright
-        copyright: undefined,           // set this to html string to use custom copyrihgt section
-        copyrightOwnerName: 'Tatsuki丶梦辰',         // copyright owner name
-        copyrightOwnerLink: 'https://tatsukimengchen.github.io/devToolbox/',  // copyright owner link if any
-        copyrightExtra: '未经允许禁止转载文档内的任何文章',      // any exta text to show below copyright owner section
-
-        useLocalStorage: false,          // build and store footer in localstorage for quick access
-      }
+      footer: {
+        copy: 'Copyright &copy; 2021 💖 </span>',
+        auth: ' <strong>-相依-</strong>',
+        pre: '<hr/>',
+        style: 'text-align: center;',
+      },
 
     }
   </script>
@@ -123,7 +116,8 @@
   <!-- 图片缩放 -->
   <script src="./js/zoom-image.js"></script>
 
-  <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-footer@1.x/dist/plugin.min.js"></script>
+  <!-- 文档页脚增强 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-footer-enh/dist/docsify-footer.min.js"></script>
 
 
 </body>

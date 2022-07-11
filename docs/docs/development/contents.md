@@ -7,7 +7,7 @@
 
 
 ## 游戏技巧
-
+* [游戏跨服](/docs/development/skills/游戏跨服.md)
 
 
 ## 脚本

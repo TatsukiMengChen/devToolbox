@@ -10,7 +10,8 @@
   <link rel="shortcut icon" href="icon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="./style/vue.css">
   <link rel="stylesheet" type="text/css" href="style/myStyle.css" />
 
@@ -63,6 +64,20 @@
         ossChapterText: true,
       },
 
+      customPageFooter: {
+        debug: false,                   // for debugging
+
+        showPoweredBy: false,            // should show powered by docsify at right
+        copyrightYear: '',              // show copyright year, default current year.
+        showCopyright: true,            // set to false to hide default copyright
+        copyright: undefined,           // set this to html string to use custom copyrihgt section
+        copyrightOwnerName: 'Tatsuki丶梦辰',         // copyright owner name
+        copyrightOwnerLink: undefined,  // copyright owner link if any
+        copyrightExtra: '未经允许禁止转载文档内的任何文章',      // any exta text to show below copyright owner section
+
+        useLocalStorage: true,          // build and store footer in localstorage for quick access
+      }
+
     }
   </script>
 
@@ -89,7 +104,7 @@
 
   <!-- PWA 离线化 -->
   <script>
-  
+
     if (typeof navigator.serviceWorker !== 'undefined') {
       navigator.serviceWorker.register('sw.js')
     }
@@ -107,6 +122,10 @@
 
   <!-- 图片缩放 -->
   <script src="./js/zoom-image.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-footer@1.x/dist/plugin.min.js"></script>
+
+
 </body>
 
 </html>

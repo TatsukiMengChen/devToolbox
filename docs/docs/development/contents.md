@@ -23,7 +23,8 @@
 * [动画脚本](/docs/development/UI/动画脚本.md)
 
 
-
+## 插件
+* [道具json](/docs/development/plugin/itemJson.md)
 
 
 

@@ -14,6 +14,7 @@
   * [脚本API](/docs/development/contents.md#脚本API)
   * [综合案例](/docs/development/contents.md#综合案例)
   * [UI编辑器](/docs/development/contents.md#UI编辑器)
+  * [插件](/docs/development/contents.md#插件)
 
 * 游戏技巧
 
@@ -36,7 +37,9 @@
   * [动画脚本](/docs/development/UI/动画脚本.md) 
 
 
+* 插件
 
+  * [道具json](/docs/development/plugin/itemJson.md)
 
 
 * [脚本API接口](https://developers.mini1.cn/wiki/API.html)

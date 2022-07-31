@@ -8,7 +8,7 @@
 
 ## 游戏技巧
 * [游戏跨服](/docs/development/skills/游戏跨服.md)
-
+* [冒险指南](/docs/development/skills/冒险指南.md)
 
 ## 脚本
 * [实用脚本](/docs/development/script/UsefulScript.md)

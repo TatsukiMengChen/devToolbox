@@ -1,5 +1,32 @@
 # 实用脚本
 
+## 获取道具ID表
+
+```lua
+--[[
+此脚本需要事先创建一个UI，包含一个编辑框和一个按钮
+7126910654869158297_1为编辑框ID
+7126910654869158297_2为按钮ID
+由于编辑框有长度限制，因此需要重复多次 “点击按钮-复制文本” 操作
+--]]
+a = 1
+function test(e)
+    if e.btnelenemt == '7126910654869158297_2' then
+        text = ''
+        repeat
+            result,name = Item:getItemName(a)
+            if name ~= nil then
+                text = text..a..' '..name..'\n'
+            end
+            a = a+1
+        until #text >= 9000
+        Customui:setText(0,'7126910654869158297','7126910654869158297_1',text)
+    end
+end
+
+ScriptSupportEvent:registerEvent([=[UI.Button.Click]=],test)
+```
+
 ## 一键生成渐变色文本
 
 ```lua

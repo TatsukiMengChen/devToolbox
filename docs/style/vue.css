@@ -7,6 +7,11 @@
   -webkit-touch-callout: none;
   box-sizing: border-box;
 }
+
+table p {
+  text-align: center
+}
+
 body:not(.ready) {
   overflow: hidden;
 }

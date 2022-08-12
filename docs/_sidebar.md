@@ -4,7 +4,21 @@
   * [快速开始](/docs/help/quickstart.md)
   * [常见问题](/docs/questions.md)
 
+<style>
+  summary {
+    margin-left: 16px;
+  }
+</style>
 
+<details>
+<summary>脚本API接口</summary>
+
+* * 
+    * [接口使用说明](/docs/API/README.md)
+    * [脚本常见问题](/docs/API/questions.md)
+    * [接口常量列表](/docs/API/global.md)
+
+</details>
 
 * [在线工具](/tools/README.md)
 
@@ -47,7 +61,7 @@
   * [道具json](/docs/development/plugin/itemJson.md)
 
 
-* [脚本API接口](https://developers.mini1.cn/wiki/API.html)
+* [脚本API接口（原版）](https://developers.mini1.cn/wiki/API.html)
 
 
 * 学习笔记

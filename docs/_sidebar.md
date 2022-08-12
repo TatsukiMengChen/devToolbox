@@ -18,7 +18,7 @@
 
 * 游戏技巧
 
-  * [游戏跨服](/docs/development/skills/游戏跨服.md)  
+  * [游戏跨服](/docs/development/skills/游戏跨服.md)
   * [冒险指南](/docs/development/skills/冒险指南.md)
   * [游戏bug](/docs/development/skills/游戏bug.md)
 
@@ -26,6 +26,7 @@
 * 脚本
 
   * [实用脚本](/docs/development/script/UsefulScript.md)
+  * [封装游戏API](/docs/development/script/EncapsulatedAPI.md)
 
 
 * 综合案例

@@ -1,6 +1,8 @@
 * 使用帮助
 
+  * [关于文档](README.md)
   * [快速开始](/docs/help/quickstart.md)
+  * [常见问题](/docs/questions.md)
 
 
 
@@ -46,8 +48,6 @@
 
 
 * [脚本API接口](https://developers.mini1.cn/wiki/API.html)
-
-* [常见问题](/docs/questions.md)
 
 
 * 学习笔记

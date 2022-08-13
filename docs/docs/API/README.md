@@ -25,4 +25,4 @@
 * [自定义UI管理接口 coustomui](/docs/API/coustomui.md)
 * [显示板管理接口 displayboard](/docs/API/displayboard.md)
 * [接口常量列表](/docs/API/global.md)
-* [显示板管理接口 displayboard](/docs/API/questions.md)
+* [脚本常见问题](/docs/API/questions.md)

@@ -24,7 +24,7 @@
   <script>
     window.$docsify = {
       el: '#app',
-      name: '<h5>迷你开发者工具箱帮助文档</h5>',
+      name: '<div>迷你开发者工具箱</div><div>帮助文档</div>',
       //repo: 'https://github.com/TatsukiMengChen/devToolbox',
       loadNavbar: true, //开启导航栏
       coverpage: true, //开启封面
@@ -71,13 +71,25 @@
         style: 'text-align: center;',
       },
 
+      timeUpdater: {
+    text: "<div align='end'><span style='font-size: 14px;'>上次更新时间: </span><span style='color: #AAAAAA;'>{docsify-updated}</span></div>",
+    formatUpdated: "{YYYY}/{MM}/{DD} {HH}:{mm}:{ss}",
+  },
+    }
+  </script>
+
+  <!-- PWA 离线化 -->
+  <script>
+
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
     }
   </script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 
   <!-- 分页导航 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="js/docsify-pagination.js"></script>
 
   <!-- 复制代码到剪切板 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
@@ -93,13 +105,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
 
 
-  <!-- PWA 离线化 -->
-  <script>
-
-    if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('sw.js')
-    }
-  </script>
 
   <!-- 置顶插件 -->
   <script src="style/jquery-1.11.3.min.js"></script>
@@ -117,6 +122,8 @@
   <!-- 文档页脚增强 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-footer-enh/dist/docsify-footer.min.js"></script>
 
+  <!--文档更新日期-->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script>
 </body>
 
 </html>

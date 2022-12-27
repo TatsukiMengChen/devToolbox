@@ -14,7 +14,7 @@
   };
 </style>
 
-<details open>
+<details>
 <summary><span style="color: #364146;font-weight: 700;">脚本API接口</span></summary>
 
 * 

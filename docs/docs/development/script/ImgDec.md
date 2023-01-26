@@ -8,11 +8,11 @@
 
 ## 效果演示
 
-[解密前：（由于无法正常显示图片，所以提供下载链接）](https://tatsukimengchen.github.io/devToolbox/docs/development/script/images/rail_detector.png)
+[解密前：（由于无法正常显示图片，所以提供下载链接）](https://tatsukimengchen.github.io/devToolbox/docs/development/script/images/rail_detector.zip)
 
 解密后：
 
-![解密后](/images/rail_detector_decrypted.png)
+![解密后](/images/rail_detector.png)
 
 ## 用到的库
 

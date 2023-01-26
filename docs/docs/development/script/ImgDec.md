@@ -1,6 +1,6 @@
 <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
 
-# 旧版本图片解密工具
+# 旧版本图片解密
 
 !> 这是*Python*文档，并非*Lua*文档！
 
@@ -10,9 +10,7 @@
 
 ## 效果演示
 
-解密前：
-
-![解密前](/docs/docs/development/script/images/rail_detector.png)
+[解密前：（由于无法正常显示图片，所以提供下载链接）](/docs/docs/development/script/images/rail_detector.png)
 
 解密后：
 

@@ -15,7 +15,7 @@
 * [实用脚本](/docs/development/script/UsefulScript.md)
 * [封装游戏API](/docs/development/script/EncapsulatedAPI.md)
 * [API挖掘助手](/docs/development/script/APIMiningAssistant.md)
-
+* [旧版本图片解密](/docs/development/script/ImgDec.md)
 
 
 ## 综合案例

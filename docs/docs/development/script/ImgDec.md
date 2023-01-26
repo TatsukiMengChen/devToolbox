@@ -14,7 +14,7 @@
 
 解密后：
 
-![解密后](/docs/docs/development/script/images/rail_detector_decrypted.png)
+![解密后](/images/rail_detector_decrypted.png)
 
 ## 用到的库
 

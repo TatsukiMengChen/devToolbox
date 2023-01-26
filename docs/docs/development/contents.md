@@ -24,8 +24,8 @@
 
 
 ## UI编辑器
-* [动画脚本](/docs/development/UI/动画脚本.md)
-* [翻牌抽奖](/docs/development/UI/翻牌抽奖.md)
+* [动画脚本](/docs/development/UI/AnimationScript.md)
+* [翻牌抽奖](/docs/development/UI/FlopDraw.md)
 
 
 ## 插件
